@@ -90,6 +90,11 @@
 	font-size: 40px;
 }
 
+.input-field[type=text]{
+	font-size: 50px;
+	color: #777;
+}
+
 .check-box{
 	margin: 70px 40px;
 	width: 45px;
@@ -104,11 +109,11 @@ span{
 }
 
 .submit-btn{
-	width: 85%;
+	width: 65%;
 	padding: 50px 150px;
 	cursor: pointer;
 	display: block;
-	margin: auto;
+	margin: 0 159px;
 	background: linear-gradient(to right, #ff105f, #ffad06);
 	border: 0;
 	outline: none;
@@ -116,4 +121,12 @@ span{
 	font-size: 50px;
 	position: relative;
 	top: 100px;
+}
+
+#login{
+	left: 130px;
+}
+
+#register{
+	left: 1630px;
 }
